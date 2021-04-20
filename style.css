@@ -36,6 +36,15 @@ nav {
     transform: translate(-50%, -30%);
 }
 
+.main-subtitle {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -45%);
+}
+
 .content {
     width: 100%;
     background: rgb(24, 24, 24);
