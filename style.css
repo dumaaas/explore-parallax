@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: #fff;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 nav {
@@ -20,7 +21,7 @@ nav {
 
 .container img {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: absolute;
     object-fit: cover;
     z-index: -1;
@@ -38,8 +39,9 @@ nav {
 .content {
     width: 100%;
     background: rgb(24, 24, 24);
-    min-height: 100vh;
+    min-height: 110vh;
     z-index: 2;
+    position: absolute;
 }
 
 .content-images {
