@@ -6,7 +6,7 @@ timeline //setting timeline -> how elements should behave
         y: -300
     })
     .to('.girl', 3, {
-        y: -200
+        y: -200,
     }, '-=3')
     .fromTo('.bg1', 3, {
         y: -50
@@ -16,16 +16,19 @@ timeline //setting timeline -> how elements should behave
     .to('.content', 3, {
         top: '0%'
     }, "-=3")
-    .fromTo(".content-images", {
-        opacity: 0
+    .fromTo(".content-images", 10, {
+        opacity:0,
+        scale: 0.1
     }, {
-        opacity: 1,
-        duration: 3
+        opacity:1,
+        scale: 1,
     })
     .fromTo(".text", {
-        x: -1600
+        x: -1600,
+        opacity:0,
     }, {
         x: 0,
+        opacity:1,
         duration: 3
     }, "-=3");
 
